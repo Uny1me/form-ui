@@ -1,0 +1,110 @@
+.auth {
+  background: white;
+}
+
+.ros {
+  background: white;
+}
+
+.sign-in {
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: .7rem 2rem;
+}
+
+button {
+  background: #e87924 !important;
+  border: none !important;
+}
+
+button:hover {
+  background: #d36c1d !important;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+.ros {
+  border-radius: 19px !important;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0.8px 3.6px rgba(0, 0, 0, 0.024), 0 2.1px 10px rgba(0, 0, 0, 0.035), 0 5.1px 24.1px rgba(0, 0, 0, 0.046), 0 17px 80px rgba(0, 0, 0, 0);
+          box-shadow: 0 0.8px 3.6px rgba(0, 0, 0, 0.024), 0 2.1px 10px rgba(0, 0, 0, 0.035), 0 5.1px 24.1px rgba(0, 0, 0, 0.046), 0 17px 80px rgba(0, 0, 0, 0);
+}
+
+line {
+  border: 1px solid palevioletred;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+main {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("1567627.jpg");
+  padding: 19rem 0rem;
+}
+
+.forgot {
+  padding-bottom: .3rem;
+  font-weight: 600;
+}
+
+.forgot:hover {
+  text-decoration: none !important;
+  opacity: .4;
+}
+
+.social {
+  color: gray;
+  font-weight: 600 !important;
+}
+
+.social:hover {
+  opacity: .7;
+  color: #d3d1cf !important;
+  text-decoration: none;
+}
+
+@media (max-width: 990px) {
+  main {
+    padding: 4rem 0;
+  }
+  main h1, form h2 {
+    font-size: 4rem !important;
+  }
+  main p {
+    font-size: 3rem !important;
+  }
+  form label, .options {
+    font-size: 1.5rem;
+  }
+  form input, .forgot, .social, button, main a {
+    padding: 2rem 1rem !important;
+    font-size: 2rem !important;
+  }
+  button, form small, main a {
+    padding: 1.5rem 1rem !important;
+  }
+  .forgot {
+    padding: .5rem 0 !important;
+  }
+  form input::-webkit-input-placeholder, .input-group-text, form small {
+    font-size: 1.5rem !important;
+  }
+  form input:-ms-input-placeholder, .input-group-text, form small {
+    font-size: 1.5rem !important;
+  }
+  form input::-ms-input-placeholder, .input-group-text, form small {
+    font-size: 1.5rem !important;
+  }
+  form input::placeholder, .input-group-text, form small {
+    font-size: 1.5rem !important;
+  }
+  .social + .social {
+    margin-top: 3rem !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */
